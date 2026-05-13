@@ -1,0 +1,24 @@
+# Built application files
+*.apk
+*.aar
+*.ap_
+*.aab
+
+# Build directories
+build/
+app/build/
+
+# Local configuration files
+local.properties
+*.iml
+.gradle/
+.idea/
+*.DS_Store
+
+# Firebase - keep google-services.json
+# commented out for security
+# google-services.json
+
+# Keystore files
+*.jks
+*.keystore

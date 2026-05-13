@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="skills_array">
+        <item>Select Skill</item>
+        <item>Painter</item>
+        <item>Plumber</item>
+        <item>Electrician</item>
+        <item>Gardener</item>
+        <item>Carpenter</item>
+        <item>Tiler</item>
+    </string-array>
+</resources>

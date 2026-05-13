@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "552561337217",
+    "project_id": "namma-kelsa-a5016",
+    "storage_bucket": "namma-kelsa-a5016.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:552561337217:android:46e365bd945e0718687e80",
+        "android_client_info": {
+          "package_name": "com.example.nammakelsa"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBikyY3TXBPhXPjJXeM_Be5ikihmOg5JpA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

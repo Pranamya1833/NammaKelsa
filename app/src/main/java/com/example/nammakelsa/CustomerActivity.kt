@@ -1,3 +1,4 @@
+// Namma Kelsa - AI powered labor marketplace
 package com.example.nammakelsa
 
 import android.widget.Button
@@ -30,7 +31,7 @@ class CustomerActivity : AppCompatActivity() {
     private lateinit var recyclerView: RecyclerView
     private lateinit var tvEmptyState: TextView
     private lateinit var chipGroup: ChipGroup
-    private lateinit var adapter: WorkerAdapter
+    private lateinit var adapter: WorkerAdapter 
     private lateinit var etAiSearch: EditText
     private lateinit var btnAiSearch: Button
     private var fullList: MutableList<Worker> = mutableListOf()

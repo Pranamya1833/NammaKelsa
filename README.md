@@ -76,17 +76,19 @@ no commission, just direct hire.
 ---
 
 ## Project Structure
-app/src/main/java/com/example/nammakelsa/
-├── SplashActivity.kt      # Animated splash screen
-├── MainActivity.kt        # Home - Worker/Customer selection
-├── WorkerActivity.kt      # Worker profile create and edit
-├── CustomerActivity.kt    # Customer search + AI feature
-├── WorkerAdapter.kt       # RecyclerView adapter
-└── Worker.kt              # Worker data class
-app/src/main/res/
-├── layout/                # XML UI layouts
-├── drawable/              # Icons and backgrounds
-└── values/                # Colors, strings, themes
+
+**Kotlin Source Files**
+- `SplashActivity.kt` — Animated splash screen
+- `MainActivity.kt` — Home screen, Worker/Customer selection
+- `WorkerActivity.kt` — Worker profile create and edit
+- `CustomerActivity.kt` — Customer search and AI feature
+- `WorkerAdapter.kt` — RecyclerView adapter for worker cards
+- `Worker.kt` — Worker data class
+
+**Resource Files**
+- `res/layout/` — XML UI layouts for all screens
+- `res/drawable/` — Icons and background drawables
+- `res/values/` — Colors, strings, themes and arrays
 ---
 
 ## Setup Instructions

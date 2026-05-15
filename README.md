@@ -22,3 +22,49 @@ Skilled daily wage workers like painters, plumbers and electricians have no digi
 Kotlin, Android SDK, Firebase Firestore, Mistral AI API, OkHttp3, Kotlin Coroutines, XML Layouts, Android Studio
 
 ## Project Structure
+app/src/main/java/com/example/nammakelsa/
+├── MainActivity.kt
+├── WorkerActivity.kt
+├── CustomerActivity.kt
+├── WorkerAdapter.kt
+├── Worker.kt
+└── SplashActivity.kt
+## Setup Instructions
+
+### Prerequisites
+- Android Studio
+- Android SDK API 24+
+- Firebase account
+- Mistral AI API key (free at console.mistral.ai)
+
+### Installation
+1. Clone the repository
+git clone https://github.com/Pranamya1833/NammaKelsa.git
+2. Open in Android Studio
+
+3. Add Firebase configuration
+   - Create Firebase project at console.firebase.google.com
+   - Add Android app with package: com.example.nammakelsa
+   - Download google-services.json → place in app/ folder
+   - Enable Firestore Database in test mode
+
+4. Add Mistral API key
+   - Get free key at console.mistral.ai
+   - In CustomerActivity.kt replace:
+   - your-mistral-api-key-here with your actual key
+
+5. Run the app
+   - Connect Android device or start emulator
+   - Click Run in Android Studio
+
+## Success Criteria
+1. Availability switch updates search results instantly
+2. Call button works with phone dialer
+3. UI simple enough for any worker to manage their profile
+
+## AI Integration
+Mistral AI API detects which skill is needed from customer 
+description in Kannada, Hindi or English automatically.
+
+## MindMatrix VTU Internship Program
+Project 53 — Self-Employment Category

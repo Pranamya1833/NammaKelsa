@@ -17,6 +17,28 @@ Skilled daily wage workers like painters, plumbers and electricians have no digi
 - AI-powered multilingual search (Kannada, Hindi, English)
 - Animated splash screen
 - Blue and white professional UI
+## Screenshots
+
+### Splash Screen
+![Splash Screen](screenshots/Splash%20screen.png)
+
+### Worker Registration
+![Worker Registration](screenshots/worker%20registration.png)
+
+### AI Powered Search
+![AI Powered Search](screenshots/ai%20powered%20search.png)
+
+### AI Powered Search Result
+![AI Powered Search 2](screenshots/ai%20powered%20search%202.png)
+
+### Availability Toggle
+![Availability Toggle](screenshots/Availability%20toggle.png)
+
+### One Tap Call
+![One Tap Call](screenshots/one%20tap%20call.png)
+
+### One Tap Call Dialer
+![One Tap Call 2](screenshots/one%20tap%20call%202.png)
 
 ## Tech Stack
 Kotlin, Android SDK, Firebase Firestore, Mistral AI API, OkHttp3, Kotlin Coroutines, XML Layouts, Android Studio
@@ -68,3 +90,11 @@ description in Kannada, Hindi or English automatically.
 
 ## MindMatrix VTU Internship Program
 Project 53 — Self-Employment Category
+
+## Future Improvements
+- GPS based distance filtering for nearby workers
+- Worker rating and review system
+- Push notifications for job requests
+- In-app chat between worker and customer
+- Worker photo gallery for past work showcase
+- Multi-language UI support

@@ -36,7 +36,7 @@ class CustomerActivity : AppCompatActivity() {
     private var fullList: MutableList<Worker> = mutableListOf()
     private val db = FirebaseFirestore.getInstance()
     private val client = OkHttpClient()
-    private val MISTRAL_API_KEY = "BHpgZXOTp9W5hFTbT18OaySOa6ZSJqeL"
+    private val MISTRAL_API_KEY = "your-new-key-here"
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_customer)
